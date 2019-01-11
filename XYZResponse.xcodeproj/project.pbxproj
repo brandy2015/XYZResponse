@@ -15,6 +15,7 @@
 		D672408B21E86D3F000ACCF0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D672408A21E86D3E000ACCF0 /* LICENSE */; };
 		D672408D21E86D45000ACCF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D672408C21E86D44000ACCF0 /* README.md */; };
 		D672408F21E86D52000ACCF0 /* XYZResponse.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D672408E21E86D52000ACCF0 /* XYZResponse.podspec */; };
+		D672409121E86E38000ACCF0 /* XYZResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672409021E86E38000ACCF0 /* XYZResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D672408A21E86D3E000ACCF0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D672408C21E86D44000ACCF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D672408E21E86D52000ACCF0 /* XYZResponse.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZResponse.podspec; sourceTree = "<group>"; };
+		D672409021E86E38000ACCF0 /* XYZResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D672408921E86D0F000ACCF0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D672409021E86E38000ACCF0 /* XYZResponse.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D672409121E86E38000ACCF0 /* XYZResponse.swift in Sources */,
 				D672407A21E86CFE000ACCF0 /* ViewController.swift in Sources */,
 				D672407821E86CFE000ACCF0 /* AppDelegate.swift in Sources */,
 			);
