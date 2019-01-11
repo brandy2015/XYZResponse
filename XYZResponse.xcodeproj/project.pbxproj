@@ -12,6 +12,9 @@
 		D672407D21E86CFF000ACCF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672407B21E86CFE000ACCF0 /* Main.storyboard */; };
 		D672407F21E86D01000ACCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D672407E21E86D01000ACCF0 /* Assets.xcassets */; };
 		D672408221E86D01000ACCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D672408021E86D01000ACCF0 /* LaunchScreen.storyboard */; };
+		D672408B21E86D3F000ACCF0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D672408A21E86D3E000ACCF0 /* LICENSE */; };
+		D672408D21E86D45000ACCF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D672408C21E86D44000ACCF0 /* README.md */; };
+		D672408F21E86D52000ACCF0 /* XYZResponse.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D672408E21E86D52000ACCF0 /* XYZResponse.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D672407E21E86D01000ACCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D672408121E86D01000ACCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D672408321E86D01000ACCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D672408A21E86D3E000ACCF0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D672408C21E86D44000ACCF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D672408E21E86D52000ACCF0 /* XYZResponse.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZResponse.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 		D672406B21E86CFE000ACCF0 = {
 			isa = PBXGroup;
 			children = (
+				D672408A21E86D3E000ACCF0 /* LICENSE */,
+				D672408C21E86D44000ACCF0 /* README.md */,
+				D672408E21E86D52000ACCF0 /* XYZResponse.podspec */,
 				D672407621E86CFE000ACCF0 /* XYZResponse */,
 				D672407521E86CFE000ACCF0 /* Products */,
 			);
@@ -54,6 +63,7 @@
 		D672407621E86CFE000ACCF0 /* XYZResponse */ = {
 			isa = PBXGroup;
 			children = (
+				D672408921E86D0F000ACCF0 /* Source */,
 				D672407721E86CFE000ACCF0 /* AppDelegate.swift */,
 				D672407921E86CFE000ACCF0 /* ViewController.swift */,
 				D672407B21E86CFE000ACCF0 /* Main.storyboard */,
@@ -62,6 +72,13 @@
 				D672408321E86D01000ACCF0 /* Info.plist */,
 			);
 			path = XYZResponse;
+			sourceTree = "<group>";
+		};
+		D672408921E86D0F000ACCF0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +141,9 @@
 			files = (
 				D672408221E86D01000ACCF0 /* LaunchScreen.storyboard in Resources */,
 				D672407F21E86D01000ACCF0 /* Assets.xcassets in Resources */,
+				D672408F21E86D52000ACCF0 /* XYZResponse.podspec in Resources */,
+				D672408D21E86D45000ACCF0 /* README.md in Resources */,
+				D672408B21E86D3F000ACCF0 /* LICENSE in Resources */,
 				D672407D21E86CFF000ACCF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
