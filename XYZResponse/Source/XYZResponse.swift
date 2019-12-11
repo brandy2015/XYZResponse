@@ -9,12 +9,12 @@
 import UIKit
 
 public class XYZResponse: NSObject {
-    
-    
+    /// 创建枚举
+    public enum FeedbackType: Int {case light,medium,heavy,success,warning,error,none}
     /// 创建类方法，随时调用
     public static func D点按马达震动反馈(style: FeedbackType) {
-        if #available(iOS 10.0, *) {
-            switch style {
+        let generator = UINotificationFeedbackGenerator()
+        switch style {
             case .light:
                 let generator = UIImpactFeedbackGenerator(style: .light)
                 generator.impactOccurred()
@@ -24,31 +24,10 @@ public class XYZResponse: NSObject {
             case .heavy:
                 let generator = UIImpactFeedbackGenerator(style: .heavy)
                 generator.impactOccurred()
-            case .success:
-                let generator = UINotificationFeedbackGenerator()
-                generator.notificationOccurred(.success)
-            case .warning:
-                let generator = UINotificationFeedbackGenerator()
-                generator.notificationOccurred(.warning)
-            case .error:
-                let generator = UINotificationFeedbackGenerator()
-                generator.notificationOccurred(.error)
-                
-                
-                
-            default:
-                break
-            }
+            case .success: generator.notificationOccurred(.success)
+            case .warning: generator.notificationOccurred(.warning)
+            case .error  : generator.notificationOccurred(.error)
+            default:break
         }
-    }
-    /// 创建枚举
-    public enum FeedbackType: Int {
-        case light
-        case medium
-        case heavy
-        case success
-        case warning
-        case error
-        case none
     }
 }

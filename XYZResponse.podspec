@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
     s.name         = "XYZResponse"
-    s.version      = "1.0.0"
+    s.version      = "1.1.1"
     s.summary      = "Deal with TouchResponse."
     s.description  = <<-DESC
         Private pod to deal with TouchResponse
@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
     s.license      = "MIT"
     s.swift_version = '5.0'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-    s.ios.deployment_target = '10.1'
+    s.ios.deployment_target = '13.0'
 #  s.dependency 'SwiftDate'
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
-    s.platform     = :ios, "10.1"
-    s.source       = { :git => "https://github.com/brandy2015/XYZResponse.git", :tag => "1.0.0"}
+    s.platform     = :ios, "13.0"
+    s.source       = { :git => "https://github.com/brandy2015/XYZResponse.git", :tag => "1.1.1"}
     s.source_files = "XYZResponse/Source/*"
 
 
